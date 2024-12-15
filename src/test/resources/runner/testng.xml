@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Secret santa matchmaking suite">
+
+    <test name="home test">
+        <classes>
+            <class name="testcases.HomeTest"/>
+            <class name="testcases.AddPeopleTest"/>
+        </classes>
+    </test>
+</suite>

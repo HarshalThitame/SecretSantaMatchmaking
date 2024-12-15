@@ -1,0 +1,4 @@
+INFO    2024-12-15 21:20:07,630 [main] base.BaseTest  - Test execution started
+INFO    2024-12-15 21:20:07,630 [main] base.BaseTest  - Config property loaded
+INFO    2024-12-15 21:20:08,230 [main] base.BaseTest  - Chrome driver loaded
+INFO    2024-12-15 21:20:09,062 [main] base.BaseTest  - Test execution ended
