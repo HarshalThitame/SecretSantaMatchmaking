@@ -42,7 +42,7 @@ public class ExtentManager implements ITestListener {
         String text = "Test case failed." + methodName.toUpperCase();
         Markup m = MarkupHelper.createLabel(text, ExtentColor.RED);
         BaseTest baseTest = (BaseTest) iTestResult.getInstance();
-        baseTest.captureScreenshot(iTestResult);
+//        baseTest.captureScreenshot(iTestResult);
         test.log(Status.FAIL, iTestResult.getThrowable().getMessage());
         test.fail(m);
     }
